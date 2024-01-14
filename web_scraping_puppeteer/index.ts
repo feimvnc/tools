@@ -14,7 +14,7 @@ const main = async () => {
     const browser = await puppeteer.launch({ headless: true })
     const page = await browser.newPage()
     await page.goto(url2)
-    await page.screenshot({ path: 'bot.jpg' })
+    await page.screenshot({ path: 'screen.jpg' })
 
     await page.goto(url)
 
